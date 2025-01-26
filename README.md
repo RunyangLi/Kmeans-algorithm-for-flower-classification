@@ -5,9 +5,15 @@ The code is published as follows
 K-Means Clustering
 Advantages: Easy to implement
 Disadvantages: May converge to local minima, and converges slowly on large datasets
+
+
 Applicable Data Types: Numerical data
+
+
 K-means is an algorithm that discovers K clusters in a given dataset. The number of clusters K is specified by the user, and each cluster is described by its 'centroid,' which is the center of all points in the cluster.
 K-Means Workflow
+
+
 First, randomly determine K initial points as centroids. Then, assign each point in the dataset to a cluster. Specifically, for each point, find the nearest centroid and assign it to the cluster corresponding to that centroid. After this step, the centroid of each cluster is updated to the average of all points in that cluster.
 The pseudocode for the above process is as follows:
 
@@ -20,8 +26,9 @@ The pseudocode for the above process is as follows:
       For each cluster, calculate the mean of all points in the cluster and use it as the new centroid
 
       
-General K-Means Process
-Collect Data: Using any method
+<General K-Means Process>
+  
+<Collect Data: Using any method>
 Prepare Data: Numerical data is needed to calculate distances, and nominal data can be mapped to binary data for distance calculation
 Analyze Data: Using any method
 Train Algorithm: Not applicable to unsupervised learning, as there is no training process in unsupervised learning
